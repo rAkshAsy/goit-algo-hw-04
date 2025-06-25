@@ -31,5 +31,5 @@ if __name__ == '__main__':
         if sys.argv[1]:
             dirscript(sys.argv[1])
     except:
-        print(Fore.BLACK+Back.YELLOW+Style.BRIGHT+'[WARNING] Please, enter absolute path. Example: python dirscript.py D:\Video [WARNING]'+Style.RESET_ALL)
+        print(Fore.BLACK+Back.YELLOW+Style.BRIGHT+'[WARNING] Please, enter absolute path. Example: python main.py D:\Video [WARNING]'+Style.RESET_ALL)
         
